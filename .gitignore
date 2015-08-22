@@ -1,0 +1,15 @@
+/.bundle
+/log
+/tmp
+/public/system
+/spec/tmp
+/coverage/
+/config/database.yml
+/vendor/bundle
+/vendor/assets/bower_components
+/.idea
+.rvmrc
+.powenv
+**.orig
+rerun.txt
+pickle-email-*.html
