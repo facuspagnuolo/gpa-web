@@ -1,0 +1,43 @@
+@font-face {
+	font-family: "BrandonGrotesque-Medium"
+	src: url("https://github.com/sveinbjornt/lemur2013/blob/master/assets/fonts/Brandon%20Grotesque/Brandon_med.otf") format("opentype");
+}
+
+html {
+	color: #303e48;
+	font-family: BrandonGrotesque-Medium,"Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+@media only screen and (min-width: 601px) {
+	nav, nav .nav-wrapper i, nav a.button-collapse, nav a.button-collapse i {
+	    height: 140px;
+	    line-height: 140px;
+	}
+}
+
+nav ul li:hover, nav ul li.active {
+    background-color: rgba(254,200,66,0.7);
+}
+
+nav ul li {
+	padding-left: 2%;
+	padding-right: 2%;
+}
+
+nav a, nav ul a {
+	color: #303e48;
+	text-transform: uppercase;
+	font-weight: 900;
+	font-family: "BrandonGrotesque-Medium","Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+.brand-logo {
+	height: 140px;
+}
+
+.brand-logo img {
+	max-width: 100%;
+    max-height: 100%;
+    margin: auto;
+    display: block;
+}
