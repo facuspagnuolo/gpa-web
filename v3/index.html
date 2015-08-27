@@ -8,6 +8,8 @@
   <link rel="stylesheet" href="./application.css"/>
 	<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
   <script type="text/javascript" src="./application.js"></script>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.0/js/materialize.js"></script>
+  
 </head>
 <body>
 	<nav class="white" role="navigation">
@@ -32,6 +34,50 @@
       		<a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
     	</div>
   	</nav>
-	<div class="container"></div>
+	
+  <section id="mailSection" class="mailSection">
+      <div class="row">
+        <div class="col l6 m12 s12">
+          <div class="row">
+            <div class="card blue-grey darken-1 col s10 offset-s1">
+              <div class="card-content white-text">
+                <span class="card-title helvetica">Busqueda Laboral</span>
+                <p class="helvetica">Buscamos personas con talento en diversas áreas, con sentido de responsabilidad laboral y ganas de progresar. Si estás interesado en unirte a nuestra empresa, ingresá tus datos. Cuando surjan vacantes, nos pondremos en contacto. Gracias.</p>
+              </div>
+              <div class="card-action center-align">
+                <a href="#" class="helvetica">ENVAR CURRICULUM</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <form class="col l6 m12 s12 ">
+          <div class="col s10 offset-s1">
+            <div class="row">
+              <div class="input-field col l6 m6 s12">
+                <input  id="first_name" type="text" class="validate">
+                <label for="first_name">Nombre</label>
+              </div>
+              <div class="input-field col l6 m6 s12">
+                <input id="last_name" type="text" class="validate">
+                <label for="last_name">Apellido</label>
+              </div>
+            </div>
+            <div class="row">
+              <div class="input-field col l12 m12 s12">
+                <input id="email" type="email" class="validate">
+                <label for="email">Email</label>
+              </div>
+            </div>
+            <div class="row">
+              <div class="input-field col l12 m12 s12">
+                <textarea id="icon_prefix2" class="materialize-textarea"></textarea>
+                <label for="icon_prefix2">Mensaje</label>
+              </div>
+            </div>
+            <button class="waves-effect waves-light btn darkGrey">Enviar</button>
+          </div>
+        </form>
+      </div>
+  </section>
 </body>
 </html>

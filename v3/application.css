@@ -30,6 +30,9 @@ nav a, nav ul a {
 	font-weight: 900;
 	font-family: "BrandonGrotesque-Medium","Helvetica Neue",Helvetica,Arial,sans-serif;
 }
+.helvetica{
+	font-family: "BrandonGrotesque-Medium","Helvetica Neue",Helvetica,Arial,sans-serif;	
+}
 
 .brand-logo {
 	height: 140px;
@@ -40,4 +43,10 @@ nav a, nav ul a {
     max-height: 100%;
     margin: auto;
     display: block;
+}
+.darkGrey {
+  background-color: #303e48 !important; 
+}
+.mailSection{
+	margin-top: 50px;
 }
