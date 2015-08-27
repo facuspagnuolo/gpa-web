@@ -13,33 +13,33 @@
 </head>
 <body>
 	<nav class="white" role="navigation">
-    	<div class="nav-wrapper container">
-			<a id="logo-container" href="#" class="brand-logo"><img src="./images/logo.png"/></a>
-      		<ul class="right hide-on-med-and-down">
-        		<li><a href="#">Home</a></li>
-        		<li><a href="#">La Empresa</a></li>
-        		<li><a href="#">Productos</a></li>
-        		<li><a href="#">Servicios</a></li>
-        		<li><a href="#"><i class="material-icons">location_on</i></a></li>
-        		<li><a href="#"><i class="material-icons">email</i></a></li>
-      		</ul>
-		    <ul id="nav-mobile" class="side-nav" style="left: -250px;">
-        		<li><a href="#">Home</a></li>
-        		<li><a href="#">La Empresa</a></li>
-        		<li><a href="#">Productos</a></li>
-        		<li><a href="#">Servicios</a></li>
-        		<li><a href="#"><i class="material-icons">location_on</i></a></li>
-        		<li><a href="#"><i class="material-icons">email</i></a></li>
-      		</ul>
-      		<a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
-    	</div>
-  	</nav>
-	
-  <section id="mailSection" class="mailSection">
+  	<div class="nav-wrapper container">
+		<a id="logo-container" href="#" class="brand-logo"><img src="./images/logo.png"/></a>
+    		<ul class="right hide-on-med-and-down">
+      		<li><a href="#">Home</a></li>
+      		<li><a href="#">La Empresa</a></li>
+      		<li><a href="#">Productos</a></li>
+      		<li><a href="#">Servicios</a></li>
+      		<li><a href="#"><i class="material-icons">location_on</i></a></li>
+      		<li><a href="#"><i class="material-icons">email</i></a></li>
+    		</ul>
+	    <ul id="nav-mobile" class="side-nav" style="left: -250px;">
+      		<li><a href="#">Home</a></li>
+      		<li><a href="#">La Empresa</a></li>
+      		<li><a href="#">Productos</a></li>
+      		<li><a href="#">Servicios</a></li>
+      		<li><a href="#"><i class="material-icons">location_on</i></a></li>
+      		<li><a href="#"><i class="material-icons">email</i></a></li>
+    		</ul>
+    		<a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
+  	</div>
+	</nav>
+  <main>
+    <section id="mailSection" class="mailSection">
       <div class="row">
-        <div class="col l6 m12 s12">
+        <div class="col offset-l1 l5 offset-s1 offset-m1 m10 s10">
           <div class="row">
-            <div class="card darkGrey z-depth-4 col s10 offset-s1">
+            <div class="card darkGrey z-depth-4 col s12 mailCardLeft">
               <div class="card-content white-text">
                 <span class="card-title helvetica">Busqueda Laboral</span>
                 <p class="helvetica">Buscamos personas con talento en diversas areas, con sentido de responsabilidad laboral y ganas de progresar. Si estas interesado en unirte a nuestra empresa, ingresa tus datos. Cuando surjan vacantes, nos pondremos en contacto. Gracias.</p>
@@ -48,36 +48,47 @@
                 <a href="#" class="helvetica">ENVAR CURRICULUM</a>
               </div>
             </div>
+            <div class="card darkGrey z-depth-4 col s12 mailCardLeft">
+              <div class="card-action center-align">
+                <a href="#" class="helvetica">comercial@goldenargentina.com</a>
+                <a href="#" class="helvetica">rrhh@goldenargentina.com</a>
+              </div>
+            </div>
           </div>
         </div>
-        <form class="col l6 m12 s12 ">
+        <form class=" card white col l5 offset-s1 offset-m1 m10 s10 z-depth-4 mailForm">
           <div class="col s10 offset-s1">
             <div class="row">
               <div class="input-field col l6 m6 s12">
-                <input  id="first_name" type="text" class="validate">
+                <input  id="first_name" type="text" class="validate" required>
                 <label for="first_name">Nombre</label>
               </div>
               <div class="input-field col l6 m6 s12">
-                <input id="last_name" type="text" class="validate">
+                <input id="last_name" type="text" class="validate" required>
                 <label for="last_name">Apellido</label>
               </div>
             </div>
             <div class="row">
               <div class="input-field col l12 m12 s12">
-                <input id="email" type="email" class="validate">
+                <input id="email" type="email" class="validate" required>
                 <label for="email">Email</label>
               </div>
             </div>
             <div class="row">
               <div class="input-field col l12 m12 s12">
-                <textarea id="icon_prefix2" class="materialize-textarea"></textarea>
+                <textarea id="icon_prefix2" class="materialize-textarea" required></textarea>
                 <label for="icon_prefix2">Mensaje</label>
               </div>
             </div>
-            <button class="waves-effect waves-light btn darkGrey">Enviar</button>
+            <div class="center-align">
+              <button type="submit" class="waves-effect waves-light btn darkGrey ">Enviar</button>
+            </div>
           </div>
         </form>
       </div>
-  </section>
+    </section>
+  </main>
+	
+  
 </body>
 </html>
