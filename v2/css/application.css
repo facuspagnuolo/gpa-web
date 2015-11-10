@@ -54,7 +54,7 @@ nav ul li:hover, nav ul li.active {
 .welcome {
 	position: relative;
 	margin-bottom: 0;
-	background: url("images/welcome.jpg") no-repeat;
+	background: url("../images/welcome.jpg") no-repeat;
 	background-size: cover;
 	max-height: 480px;
 }
@@ -109,7 +109,7 @@ footer.page-footer {
 }
 
 footer.page-footer div.container {
-	background: url('./images/footer_tree2.png') no-repeat;
+	background: url('../images/footer_tree2.png') no-repeat;
 }
 
 footer.page-footer div.container .contact-info {
