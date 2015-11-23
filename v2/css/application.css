@@ -100,7 +100,7 @@ nav ul li:hover, nav ul li.active {
 	width: 100%;
 }
 
-/********* MENU **********/
+/********* FOOTER **********/
 
 footer.page-footer {
 	padding-top: 0;
@@ -109,11 +109,11 @@ footer.page-footer {
 }
 
 footer.page-footer div.container {
-	background: url('../images/footer_tree2.png') no-repeat;
+	background: url('../images/footer_tree3.png') no-repeat;
 }
 
 footer.page-footer div.container .contact-info {
-	padding-top: 6%;
+	padding-top: 5%;
 	font-size: 14px;
 	color: white;
 }
@@ -139,4 +139,5 @@ footer.page-footer .footer-title {
 
 footer.page-footer .footer-copyright {
 	color: white;
+	background-color: #1f242a;
 }
