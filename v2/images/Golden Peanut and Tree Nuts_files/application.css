@@ -1,0 +1,181 @@
+@font-face {
+	font-family: "BrandonGrotesque-Medium"
+	src: url("https://github.com/sveinbjornt/lemur2013/blob/master/assets/fonts/Brandon%20Grotesque/Brandon_med.otf") format("opentype");
+}
+
+html {
+	font-family: BrandonGrotesque-Medium,"Helvetica Neue",Helvetica,Arial,sans-serif;
+	background-color: rgb(245, 245, 173);
+	color: #303e48;
+}
+
+.container .row {
+	margin: 0;
+}
+
+/********* MENU **********/
+
+@media only screen and (min-width: 601px) {
+	nav, nav .nav-wrapper i, nav a.button-collapse, nav a.button-collapse i {
+	    height: 150px;
+	    line-height: 150px;
+		color: #006633;
+	}
+	nav {
+		position: relative;
+		z-index: 5;
+	}
+}
+
+nav ul a {
+	color: #006633;
+	text-transform: uppercase;
+	font-weight: 900;
+	font-family: "BrandonGrotesque-Medium","Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+nav ul li:hover, nav ul li.active {
+    background-color: #fec842;
+}
+
+.brand-logo {
+	height: 140px;
+}
+
+.brand-logo img {
+	max-width: 100%;
+    max-height: 100%;
+    margin: auto;
+    display: block;
+}
+
+/********* HOME **********/
+
+.welcome {
+	position: relative;
+	margin-bottom: 0;
+	background: url("../images/welcome.jpg") no-repeat;
+	background-size: cover;
+	max-height: 520px;
+}
+
+.welcome .col {
+	padding: 0;
+}
+
+.welcome img {
+	width: 100%;
+}
+
+.welcome .english,
+.welcome .spanish {
+	font-size:30px;
+	font-weight:100;
+	-webkit-text-stroke-color: rgb(255,255,255);
+	-webkit-text-stroke-width: 1px;
+	-webkit-font-smoothing: antialiased;
+	color: white;
+	margin-bottom: 3px;
+	position: absolute;
+	z-index: 100;
+	text-transform: uppercase;
+}
+
+.welcome .spanish{
+	right: 10%;
+	top: 30px;
+}
+
+.welcome .english {
+	right: 5%;
+	top: 70px;
+}
+
+.row.photos .col {
+	padding: 0;
+}
+
+.photos img {
+	height: 100%;
+	width: 100%;
+}
+
+/********* COMPANY **********/
+
+#company {
+	display: none;
+	background-color: #cccc66;
+}
+
+/********* PRODUCTS **********/
+
+#products {
+	display: block;
+}
+
+#products h3 {
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+	text-transform: uppercase;
+}
+
+/********* SERVICES **********/
+
+#services {
+	display: none;
+	background-color: #cccc66;
+}
+
+/********* MAPS **********/
+
+#maps {
+	display: none;
+	background-color: #cccc66;
+}
+
+/********* CONTACT **********/
+
+#contact {
+	display: none;
+}
+
+/********* FOOTER **********/
+
+footer.page-footer {
+	padding-top: 0;
+	margin-top: 0;
+	background: #333d47;
+}
+
+footer.page-footer div.container {
+	background: url('../images/footer_tree3.png') no-repeat;
+}
+
+footer.page-footer div.container .contact-info {
+	padding-top: 5%;
+	font-size: 14px;
+	color: white;
+}
+
+footer.page-footer div.container .contact-info a {
+	color: #fec842;
+}
+
+footer.page-footer div.container .contact-info a:hover {
+	color: #006633;
+}
+
+footer.page-footer .footer-title {
+	font-size:30px;
+	font-weight:100;
+	-webkit-font-smoothing: antialiased;
+	color: #006633;
+	text-transform: uppercase;
+	background-color: #fec842;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+footer.page-footer .footer-copyright {
+	color: white;
+	background-color: #1f242a;
+}

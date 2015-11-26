@@ -9,7 +9,7 @@ $(document).ready(function(){
 	$('#products-link').click(function(){ changeSectionTo('products'); });
 	$('#services-link').click(function(){ changeSectionTo('services'); });
 	$('#maps-link').click(function(){ changeSectionTo('maps'); });
-	$('#contact-link').click(function(){ returnchangeSectionTo('contact'); });
+	$('#contact-link').click(function(){ changeSectionTo('contact'); });
 });
 
 function changeSectionTo(new_section) {

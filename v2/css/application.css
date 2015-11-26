@@ -1,11 +1,6 @@
-@font-face {
-	font-family: "BrandonGrotesque-Medium"
-	src: url("https://github.com/sveinbjornt/lemur2013/blob/master/assets/fonts/Brandon%20Grotesque/Brandon_med.otf") format("opentype");
-}
-
 html {
-	font-family: BrandonGrotesque-Medium,"Helvetica Neue",Helvetica,Arial,sans-serif;
-	background-color: #cccc66;
+	font-family: Roboto,"Helvetica Neue",Helvetica,Arial,sans-serif;
+	background-color: rgb(245, 245, 173);
 	color: #303e48;
 }
 
@@ -31,7 +26,7 @@ nav ul a {
 	color: #006633;
 	text-transform: uppercase;
 	font-weight: 900;
-	font-family: "BrandonGrotesque-Medium","Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-family: Roboto,"Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 
 nav ul li:hover, nav ul li.active {
@@ -54,9 +49,9 @@ nav ul li:hover, nav ul li.active {
 .welcome {
 	position: relative;
 	margin-bottom: 0;
-	background: url("images/welcome.jpg") no-repeat;
+	background: url("../images/welcome.jpg") no-repeat;
 	background-size: cover;
-	max-height: 480px;
+	max-height: 520px;
 }
 
 .welcome .col {
@@ -82,12 +77,12 @@ nav ul li:hover, nav ul li.active {
 }
 
 .welcome .spanish{
-	left: 28%;
+	right: 10%;
 	top: 30px;
 }
 
 .welcome .english {
-	left: 35%;
+	right: 5%;
 	top: 70px;
 }
 
@@ -100,7 +95,51 @@ nav ul li:hover, nav ul li.active {
 	width: 100%;
 }
 
-/********* MENU **********/
+/********* COMPANY **********/
+
+#company {
+	display: none;
+}
+
+/********* PRODUCTS **********/
+
+#products {
+	display: none;
+	height: auto!important;
+}
+
+#products h3 {
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+	text-transform: uppercase;
+}
+
+/********* SERVICES **********/
+
+#services {
+	display: none;
+}
+
+/********* MAPS **********/
+
+#maps {
+	display: none;
+}
+
+/********* CONTACT **********/
+
+#contact {
+	display: none;
+}
+
+#contact a {
+	color: #006633;
+}
+
+#contact a:hover {
+	color: #fec842;
+}
+
+/********* FOOTER **********/
 
 footer.page-footer {
 	padding-top: 0;
@@ -109,11 +148,11 @@ footer.page-footer {
 }
 
 footer.page-footer div.container {
-	background: url('./images/footer_tree2.png') no-repeat;
+	background: url('../images/footer_tree3.png') no-repeat;
 }
 
 footer.page-footer div.container .contact-info {
-	padding-top: 6%;
+	padding-top: 5%;
 	font-size: 14px;
 	color: white;
 }
@@ -139,4 +178,5 @@ footer.page-footer .footer-title {
 
 footer.page-footer .footer-copyright {
 	color: white;
+	background-color: #1f242a;
 }
