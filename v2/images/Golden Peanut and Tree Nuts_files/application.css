@@ -1,5 +1,10 @@
+@font-face {
+	font-family: "BrandonGrotesque-Medium"
+	src: url("https://github.com/sveinbjornt/lemur2013/blob/master/assets/fonts/Brandon%20Grotesque/Brandon_med.otf") format("opentype");
+}
+
 html {
-	font-family: Roboto,"Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-family: BrandonGrotesque-Medium,"Helvetica Neue",Helvetica,Arial,sans-serif;
 	background-color: rgb(245, 245, 173);
 	color: #303e48;
 }
@@ -26,7 +31,7 @@ nav ul a {
 	color: #006633;
 	text-transform: uppercase;
 	font-weight: 900;
-	font-family: Roboto,"Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-family: "BrandonGrotesque-Medium","Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 
 nav ul li:hover, nav ul li.active {
@@ -99,12 +104,13 @@ nav ul li:hover, nav ul li.active {
 
 #company {
 	display: none;
+	background-color: #cccc66;
 }
 
 /********* PRODUCTS **********/
 
 #products {
-	display: none;
+	display: block;
 }
 
 #products h3 {
@@ -116,26 +122,20 @@ nav ul li:hover, nav ul li.active {
 
 #services {
 	display: none;
+	background-color: #cccc66;
 }
 
 /********* MAPS **********/
 
 #maps {
 	display: none;
+	background-color: #cccc66;
 }
 
 /********* CONTACT **********/
 
 #contact {
 	display: none;
-}
-
-#contact a {
-	color: #006633;
-}
-
-#contact a:hover {
-	color: #fec842;
 }
 
 /********* FOOTER **********/
