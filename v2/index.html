@@ -6,33 +6,34 @@
 	<meta name="keywords" content="" />
 	<meta name="copyright" content="2009" />
 	<link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon">
-	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.0/css/materialize.min.css"/>
-	<link rel="stylesheet" href="./application.css"/>
-	<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-	<script type="text/javascript" src="./application.js"></script>
+	<link rel="stylesheet" href="./css/material_icons.css">
+	<link rel="stylesheet" href="./css/materialize.css"/>
+	<link rel="stylesheet" href="./css/application.css"/>
+	<script type="text/javascript" src="./js/jquery-2.1.1.min.js"></script>
+	<script type="text/javascript" src="./js/materialize.js"></script>
+	<script type="text/javascript" src="./js/application.js"></script>
 	<script type="text/javascript" src="mail.js"></script>
 	<title>Golden Peanut and Tree Nuts</title>
 </head>
 
 <body>
-	<nav class="white" role="navigation">
+	<nav class="white">
 		<div class="nav-wrapper container">
-			<a id="logo-container" href="#" class="brand-logo"><img src="./images/logo.png"/></a>
-			<ul class="right hide-on-med-and-down">
-				<li><a href="#">Home</a></li>
-				<li><a href="#">La Empresa</a></li>
-				<li><a href="#">Productos</a></li>
-				<li><a href="#">Servicios</a></li>
-				<li><a href="#"><i class="material-icons">location_on</i></a></li>
-				<li><a href="#"><i class="material-icons">email</i></a></li>
+			<a id="logo-container" href="#" class="brand-logo left"><img src="./images/logo.png"/></a>
+			<ul class="right">
+				<li><a id="home-link" href="#">Home</a></li>
+				<li><a id="caompany-link" href="#">La Empresa</a></li>
+				<li><a id="products-link" href="#">Productos</a></li>
+				<li><a id="services-link" href="#">Servicios</a></li>
+				<li><a id="maps-link" href="#"><i class="material-icons">location_on</i></a></li>
+				<li><a id="contact-link" href="#"><i class="material-icons">email</i></a></li>
 				<li><a href="#">EN</a></li>
 			</ul>
 		</div>
 	</nav>
 	<main>
 		<div class="container">
-			<div class="row home">
+			<div id="home" class="row main-row">
 				<div class="row welcome">
 					<p class="spanish">Bienvenidos a Golden Peanut and Tree Nuts</p>
 					<p class="english">Welcome to Golden Peanut and Tree Nuts</p>
@@ -44,26 +45,125 @@
 					<div class="col s3"><img src="images/foto2.png"/></div>
 				</div>
 			</div>
+			<div id="company" class="row main-row">
+				<h3 class="center">LA EMPRESA</h3>
+			</div>
+
+			<div id="products" class="row main-row">
+				<h3 class="center">PRODUCTOS</h3>
+				<p class="center"><i>Golden Peanut and Tree Nuts provee a los principales y más exigentes mercados del mundo productos de alta calidad, bajo internacionales de calidad y seguridad alimentaria.</i></p>
+				<div class="row">
+					<div class="col s4">
+						<div class="card white">
+							<div class="card-content center grey-text">
+		                		<img src="images/peanut_redskin.png"/>
+		                		<p class="helvetica">Maní con piel</p>
+		              		</div>
+						</div>
+					</div>
+					<div class="col s4">	
+						<div class="card white">
+							<div class="card-content center grey-text">
+								<img src="images/peanut_blanched.png"/>
+		                		<p class="helvetica">Maní blanqueado</p>
+		              		</div>
+						</div>
+					</div>
+					<div class="col s4">
+						<div class="card white">
+							<div class="card-content center grey-text">
+								<img src="images/peanut_splits.png"/>
+		                		<p class="helvetica">Maní partido</p>
+		              		</div>
+						</div>
+					</div>
+				</div>	
+				<div class="row">
+					<h5>Propiedades del maní</h5>
+					<p>• Es un producto con un alto contenido de antioxidantes.</p>
+					<p>• Contiene proteínas y grasas mono-insaturadas que reducen el colesterol en sangre.</p>
+					<p>• Contiene vitaminas tales como: E,B1, B2, B3 y B6.</p>
+				</div>
+			</div>
+
+			<div id="services" class="row main-row">
+				<h3 class="center">SERVICIOS</h3>
+			</div>
+			
+			<div id="maps" class="row main-row">
+				<h3 class="center">MAPAS</h3>
+			</div>
+
+			<div id="contact" class="row main-row">
+				<h3 class="center">CONTACTO</h3>
+		        <div class="col s6">
+		          	<div class="row">
+		            	<div class="card z-depth-4 col s12">
+		              		<div class="card-content grey-text">
+		                		<span class="card-title helvetica">Busqueda Laboral</span>
+		                		<p class="helvetica">Buscamos personas con talento en diversas areas, con sentido de responsabilidad laboral y ganas de progresar. Si estas interesado en unirte a nuestra empresa, ingresa tus datos. Cuando surjan vacantes, nos pondremos en contacto. Gracias.</p>
+		              		</div>
+		              		<div class="card-action center-align">
+		                		<a href="#" class="helvetica">ENVAR CURRICULUM</a>
+		              		</div>
+	            		</div>
+		            	<div class="card z-depth-4 col s12">
+		              		<div class="card-action center-align">
+		                		<a href="#" class="helvetica">comercial@goldenargentina.com</a>
+		                		<a href="#" class="helvetica">rrhh@goldenargentina.com</a>
+		              		</div>
+		            	</div>
+		          	</div>
+		        </div>
+		        <form class="card white col s6 z-depth-4">
+		          	<div class="col s12">
+		            	<div class="row">
+		              		<div class="input-field col l6 m6 s12">
+		                		<input id="first_name" type="text" class="validate" required>
+			                	<label for="first_name">Nombre</label>
+			              	</div>
+		              		<div class="input-field col l6 m6 s12">
+				                <input id="last_name" type="text" class="validate" required>
+				                <label for="last_name">Apellido</label>
+		              		</div>
+		            	</div>
+	            		<div class="row">
+		              		<div class="input-field col l12 m12 s12">
+		                		<input id="email" type="email" class="validate" required>
+		                		<label for="email">Email</label>
+		              		</div>
+		            	</div>
+		            	<div class="row">
+		              		<div class="input-field col l12 m12 s12">
+		                		<textarea id="icon_prefix2" class="materialize-textarea" required></textarea>
+		                		<label for="icon_prefix2">Mensaje</label>
+		              		</div>
+		            	</div>
+		            	<div class="center-align">
+		              		<button type="submit" class="waves-effect waves-light btn gpaGreenBackground ">Enviar</button>
+		            	</div>
+		            	<br>
+		            	<br>
+		          	</div>
+	        	</form>
+			</div>
 		</div>
 	</main>
 	<footer class="page-footer">
 		<div class="footer-title">
-			<h5 class="container">Golden Peanut and Tree Nuts</a></h5>
+			<h5 class="container">Golden Peanut and Tree Nuts</h5>
 		</div>
 		<div class="container">
 			<div class="row">
-				<div class="contact-info col l6 s12">
+				<div class="contact-info col s6">
 					<p>Ruta A 171</p>
 					<p>Tel/Fax +54 0358 498 0514 / 444</p>
 					<p>(2686) Alejandro Roca</p>
 					<p>Provincia de Córdoba, Argentina</p>
 					<p><a href="mailto:info@goldenargentina.com">info@goldenargentina.com</a></p>
 				</div>
-				<div class="col l6 s12">
+				<div class="col s6">
 					<div class="col s12 center-align"><img src="images/logo2.png"/></div>
-					<div class="col s4"><a href="http://www.clarin.com/" target="_blank"><img src="images/bot_clarin.jpg"/></a></div>
-					<div class="col s4"><a href="http://www.puntal.com.ar/" target="_blank"><img src="images/bot_puntal.jpg"/></a></div>
-					<div class="col s4"><a href="http://www.lavoz.com.ar/09/10/27/index.asp" target="_blank"><img src="images/bot_lavoz.jpg"/></a></div>
 				</div>
 			</div>
 		</div>
